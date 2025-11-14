@@ -1,0 +1,244 @@
+.topheader {
+  position: static;
+  background-color: #fcf8fc;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.contenedor-topheader{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* evita que se estire demasiado */
+  margin: 0 auto; /* centra el contenido horizontalmente */
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logo img {
+  height: 100px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.logo h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 32px;
+  color: #482983;
+  margin: 0;
+  margin-left:-70px;
+}
+
+.menu-horizontal {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-horizontal li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.btn-sos {
+  background-color: #f0536b;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-ingresar {
+  background-color: #482983;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.btn-ingresar::after {
+  content: "›";
+  margin-left: 8px;
+  font-size: 16px;
+}
+
+.menu-horizontal li a:hover {
+  color: white;
+  background-color: black;
+}
+
+/*PANTALLA INCIO USUARIO NORMAL*/
+
+.seccion-inicio{
+  background-image: url(img/fondo-hablar.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.div-inicio{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  gap: 10px;
+  font-family: 'Poppins',sans-serif;
+}
+
+.div-ayuda-texto h1{
+  font-size: 60px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  margin-left: 10px;
+}
+
+.div-ayuda-texto h3{
+  font-size: 16px;
+  font-weight: 200;
+  margin-left: 10px;
+}
+
+.div-ayuda-texto{
+  color: white;
+  margin-bottom: 10px;
+}
+
+.div-btn-ayuda{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.btn-sos{
+  background-color: #f0536b;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  margin-left: 20px;
+  border: none;
+}
+
+.btn-hablar-esp{
+  color: white;
+  padding: 6px 20px;
+  border-radius: 20px;
+  border:3px solid #482983 ;
+  font-weight: 600;
+  font-size: 15px;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.div-ayuda-img img{
+  height: 200px;
+  width: auto;
+  align-items: center;
+  display: flex;
+  margin-left: 60px;
+}
+
+/*SECCION CARDS*/
+.seccion-cards-usuario{
+  background-color: #F2EAF4;
+  padding: 40px 0px;
+}
+/*CARDS INICIO NORMAL*/
+.div-cards-usuario {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.cards-chat-directorio,
+.cards-test-foro {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* ← Espacio vertical entre las cards */
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  background-color: #FCF8FC;
+  border-radius: 20px;
+  width: 280px;
+  padding:18px 16px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-icono {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 14px;
+}
+
+.card-icono img {
+  width: 40px;
+  height: 40px;
+}
+
+.card-texto h3 {
+  margin: 0 0 6px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.card-texto p {
+  margin: 0;
+  font-size: 13px;
+  color: #555555;
+}
+
+.card-mapa {
+  background-color: #FCF8FC;
+  border-radius: 20px;
+  padding: 20px;
+  width: 540px;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  align-items: center;     
+  justify-content: center;
+  text-align: center;     
+}
+
+.card-mapa img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.card-mapa h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+
