@@ -1,0 +1,78 @@
+/*Seccion nosotros*/
+.seccion-nosotros {
+    background-image: url(../../img/fondo-hablar.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    padding-top: 1rem;
+    position: relative;
+}
+
+.seccion-nosotros h2 {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    padding-left: 5rem;
+}
+
+.nosotros-contenido {
+    display: flex;
+    flex-direction: row;
+}
+
+.nosotros-texto {
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: justify;
+    padding-left: 5rem;
+}
+
+.nosotros-bloques {
+    display: flex;
+    flex-direction: column;
+    gap: 7rem;
+    margin-left: 15rem;
+}
+
+.nosotros-bloque1 {
+    background-color: #482983;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
+.nosotros-bloque2 {
+    background-color: #482983;
+    color: #ffffff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+}
+
