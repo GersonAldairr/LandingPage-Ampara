@@ -4,18 +4,8 @@
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 10px 20px;
-  box-sizing: border-box;
-}
-
-.contenedor-topheader{
-  display: flex;
-  align-items: center;
   justify-content: space-between;
-  width: 100%;
-  max-width: 1200px; /* evita que se estire demasiado */
-  margin: 0 auto; /* centra el contenido horizontalmente */
+  padding: 0 5px;
 }
 
 .logo {
@@ -26,23 +16,24 @@
 .logo img {
   height: 100px;
   width: auto;
-  margin-right: 5px;
+  margin-right: -50px;
+  margin-bottom: -15px;
+  margin-top: -20px;
 }
 
 .logo h1 {
   font-family: "Roboto", sans-serif;
-  font-size: 32px;
+  font-size: 36px;
   color: #482983;
   margin: 0;
-  margin-left:-70px;
+  margin-left: -20px;
 }
 
 .menu-horizontal {
   list-style: none;
   display: flex;
-  align-items: center;
   justify-content: space-around;
-  gap: 25px;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -52,7 +43,15 @@
   text-decoration: none;
   color: #000000;
   font-family: "Poppins", sans-serif;
+
+  font-style: normal;
   font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  color: #000000;
+
+
 }
 
 .btn-sos {
@@ -62,6 +61,7 @@
   border-radius: 20px;
   font-weight: 600;
   text-decoration: none;
+  margin-left: 100px;
 }
 
 .btn-ingresar {
@@ -82,4 +82,28 @@
 .menu-horizontal li a:hover {
   color: white;
   background-color: black;
+}
+
+.btn-cuenta {
+  background-color: #482983;
+  border-radius: 20px;
+  text-decoration: none;
+  margin-right: 50px;
+  white-space: nowrap;
+  padding-left: 2rem;
+  padding-right: 1rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.3rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+
+.btn-cuenta::after {
+  content: "›";
+  margin-left: 8px;
+  font-size: 16px;
 }
